@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C80FA5CC1B0199840059EDE0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA5CB1B0199840059EDE0 /* main.swift */; };
+		C80FA5DB1B0199A10059EDE0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA5DA1B0199A10059EDE0 /* Test.swift */; };
+		C80FA5E01B019AC30059EDE0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA5DF1B019AC30059EDE0 /* Player.swift */; };
+		C80FA5E11B019AC30059EDE0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA5DF1B019AC30059EDE0 /* Player.swift */; };
+		C80FA5E31B019ACD0059EDE0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA5E21B019ACD0059EDE0 /* Game.swift */; };
+		C80FA5E41B019ACD0059EDE0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA5E21B019ACD0059EDE0 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +30,22 @@
 /* Begin PBXFileReference section */
 		C80FA5C81B0199840059EDE0 /* KataTennis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KataTennis; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80FA5CB1B0199840059EDE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C80FA5D61B0199A00059EDE0 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80FA5D91B0199A10059EDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80FA5DA1B0199A10059EDE0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C80FA5DF1B019AC30059EDE0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C80FA5E21B019ACD0059EDE0 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C80FA5C51B0199840059EDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FA5D31B0199A00059EDE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				C80FA5CA1B0199840059EDE0 /* KataTennis */,
+				C80FA5D71B0199A00059EDE0 /* Test */,
 				C80FA5C91B0199840059EDE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				C80FA5C81B0199840059EDE0 /* KataTennis */,
+				C80FA5D61B0199A00059EDE0 /* Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +77,27 @@
 			isa = PBXGroup;
 			children = (
 				C80FA5CB1B0199840059EDE0 /* main.swift */,
+				C80FA5DF1B019AC30059EDE0 /* Player.swift */,
+				C80FA5E21B019ACD0059EDE0 /* Game.swift */,
 			);
 			path = KataTennis;
+			sourceTree = "<group>";
+		};
+		C80FA5D71B0199A00059EDE0 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C80FA5DA1B0199A10059EDE0 /* Test.swift */,
+				C80FA5D81B0199A10059EDE0 /* Supporting Files */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		C80FA5D81B0199A10059EDE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80FA5D91B0199A10059EDE0 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +120,23 @@
 			productReference = C80FA5C81B0199840059EDE0 /* KataTennis */;
 			productType = "com.apple.product-type.tool";
 		};
+		C80FA5D51B0199A00059EDE0 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80FA5DC1B0199A10059EDE0 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				C80FA5D21B0199A00059EDE0 /* Sources */,
+				C80FA5D31B0199A00059EDE0 /* Frameworks */,
+				C80FA5D41B0199A00059EDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = C80FA5D61B0199A00059EDE0 /* Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +147,9 @@
 				ORGANIZATIONNAME = JO;
 				TargetAttributes = {
 					C80FA5C71B0199840059EDE0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C80FA5D51B0199A00059EDE0 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -109,16 +167,39 @@
 			projectRoot = "";
 			targets = (
 				C80FA5C71B0199840059EDE0 /* KataTennis */,
+				C80FA5D51B0199A00059EDE0 /* Test */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80FA5D41B0199A00059EDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C80FA5C41B0199840059EDE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80FA5E01B019AC30059EDE0 /* Player.swift in Sources */,
+				C80FA5E31B019ACD0059EDE0 /* Game.swift in Sources */,
 				C80FA5CC1B0199840059EDE0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FA5D21B0199A00059EDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80FA5E11B019AC30059EDE0 /* Player.swift in Sources */,
+				C80FA5E41B019ACD0059EDE0 /* Game.swift in Sources */,
+				C80FA5DB1B0199A10059EDE0 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +298,38 @@
 			};
 			name = Release;
 		};
+		C80FA5DD1B0199A10059EDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C80FA5DE1B0199A10059EDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -236,6 +349,16 @@
 				C80FA5D11B0199840059EDE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80FA5DC1B0199A10059EDE0 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80FA5DD1B0199A10059EDE0 /* Debug */,
+				C80FA5DE1B0199A10059EDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C80FA5C71B0199840059EDE0"
-               BuildableName = "KataTennis"
-               BlueprintName = "KataTennis"
+               BlueprintIdentifier = "C80FA5D51B0199A00059EDE0"
+               BuildableName = "Test.xctest"
+               BlueprintName = "Test"
                ReferencedContainer = "container:KataTennis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C80FA5C71B0199840059EDE0"
-            BuildableName = "KataTennis"
-            BlueprintName = "KataTennis"
+            BlueprintIdentifier = "C80FA5D51B0199A00059EDE0"
+            BuildableName = "Test.xctest"
+            BlueprintName = "Test"
             ReferencedContainer = "container:KataTennis.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -58,16 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C80FA5C71B0199840059EDE0"
-            BuildableName = "KataTennis"
-            BlueprintName = "KataTennis"
+            BlueprintIdentifier = "C80FA5D51B0199A00059EDE0"
+            BuildableName = "Test.xctest"
+            BlueprintName = "Test"
             ReferencedContainer = "container:KataTennis.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -77,16 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C80FA5C71B0199840059EDE0"
-            BuildableName = "KataTennis"
-            BlueprintName = "KataTennis"
+            BlueprintIdentifier = "C80FA5D51B0199A00059EDE0"
+            BuildableName = "Test.xctest"
+            BlueprintName = "Test"
             ReferencedContainer = "container:KataTennis.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

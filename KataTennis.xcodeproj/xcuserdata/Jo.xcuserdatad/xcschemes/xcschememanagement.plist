@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C80FA5C71B0199840059EDE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C80FA5D51B0199A00059EDE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
